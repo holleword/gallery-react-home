@@ -26,12 +26,13 @@ function getDefaultModules() {
     loaders: [
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers: ["last 2 version"]}'
+        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 version"]}'
       },
+
 
       {
         test: /\.scss/,
-        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers: ["last 2 version"]}'
+        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 version"]}'
       },
       {
         test: /\.less/,
